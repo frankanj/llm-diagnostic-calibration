@@ -1,0 +1,18 @@
+From inspect_data.py:
+    Shape:
+        3 Columns:
+            Unnamed - integer | index
+            label - object | disease name
+            text - object | short description of symptoms
+        1200 Rows:
+                24 Diseases
+            Each disease contains 50 entries
+    Text Length:
+        mean - 30.725
+        min - 12
+        max - 55
+
+From explore_data.py:
+    90 rows found with exact text duplicates (drop one / each)
+    No near-duplicates (same text, different label)
+    There doesn't appear to be an outlier class when it comes to substantially short/long descriptions
