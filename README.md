@@ -2,14 +2,13 @@
 
 ## Research question
 
-Are LLMs appropriately calibrated when acting as symptom checkers — i.e. does stated
+Are LLMs appropriately calibrated when acting as symptom checkers? Does stated
 confidence actually predict correctness, and are they overconfident specifically on
 ambiguous/hard cases?
 
 ## Motivation
 
-*(1-2 sentences on why this matters — e.g. LLMs are increasingly used for informal
-symptom triage, and confidence that doesn't track correctness is a safety issue.)*
+LLM's are increasingly being used for informal diagnoses based on symptoms the user inputs, so if confidence doesn't track correctness than a safety issue occurs.
 
 ## Data
 
