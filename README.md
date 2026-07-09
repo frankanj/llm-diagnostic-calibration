@@ -16,8 +16,8 @@ LLM's are increasingly being used for informal diagnoses based on symptoms the u
 - *(Optional second dataset — structured symptom checklist, if used for the cross-format check.)*
 
 **Caveat:** Symptom2Disease is a portfolio-appropriate dataset, not validated clinical
-data. This project is a methodological contribution — a way to test calibration vs.
-difficulty — not a clinical claim.
+data. This project is a methodological contribution, a way to test calibration vs.
+difficulty, not a clinical claim.
 
 ## Method
 
@@ -40,6 +40,7 @@ the reliability diagrams, then the easy/hard split.)*
 
 - Dataset is not clinically validated.
 - Difficulty proxy is model-derived, not ground-truth difficulty.
+- Data appears to be synthetic
 - *(Add others as they come up — e.g. prompt sensitivity, single-run variance.)*
 
 ## Repo structure
@@ -47,7 +48,7 @@ the reliability diagrams, then the easy/hard split.)*
 ```
 data/         raw + processed datasets
 src/          pipeline code (prompting, evaluation)
-notebooks/    exploration / analysis
+notebooks/    notes + exploration / analysis
 results/      saved outputs, figures
 ```
 
