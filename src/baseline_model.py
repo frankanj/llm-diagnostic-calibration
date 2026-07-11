@@ -28,7 +28,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, log_loss
 
-DATA_PATH = Path("data/symptom2disease.csv")
+DATA_PATH = Path("data/symptom2disease_clean.csv")
 RESULTS_DIR = Path("results")
 RESULTS_DIR.mkdir(exist_ok=True)
 
@@ -41,19 +41,7 @@ def main():
 
     df = pd.read_csv(DATA_PATH)
 
-    # Drop the unnamed index column if present
-    unnamed_cols = [c for c in df.columns if c.startswith("Unnamed")]
-    if unnamed_cols:
-        df = df.drop(columns=unnamed_cols)
-
-    # Drop exact text duplicates (90 known from data exploration), keep first
-    before = len(df)
-    df = df.drop_duplicates(subset=["text"], keep="first").reset_index(drop=True)
-    print(f"Dropped {before - len(df)} exact duplicate rows (kept first occurrence)")
-    print(f"Remaining rows: {len(df)}")
-
-    # Keep a stable case ID so results can be joined with the LLM pipeline later
-    df["case_id"] = df.index
+    print(f"Loaded {len(df)} pre-cleaned, pre-shuffled cases (case_id already assigned)")
 
     X_text = df["text"]
     y = df["label"]
