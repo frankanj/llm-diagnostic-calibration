@@ -2457,3 +2457,1768 @@ Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diag
 ,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199903, Requested 678. Please try again in 4m10.992s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,682a09c2,Cervical spondylosis,"Back discomfort, a breathing difficulty, and weakness in my limbs have been hurting me. I have issues with vertigo and losing my balance, and my neck hurts."
 ,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199890, Requested 819. Please try again in 5m6.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,c41d21dc,gastroesophageal reflux disease,"My throat frequently feels like it is burning, especially after eating. Additionally, I occasionally get a sour or bitter aftertaste, which causes me to feel queasy."
 ,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199878, Requested 833. Please try again in 5m7.152s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,ec7f8227,Bronchial Asthma,"Hey Mom, Hey Dad, I've been feeling really exhausted lately and have had this persistent cough. My breathing has become shallow, and my fever is very high. I've also been coughing up a lot of thick, mucoid sputum"
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",3391357c,Migraine,"I have been experiencing acidity, indigestion, headaches, and blurred and distorted vision, as well as excessive hunger, a stiff neck, depression, irritability, and visual disturbance. These symptoms have been affecting my daily life and causing me discomfort."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",fbb1731b,Migraine,"I have been experiencing acidity, indigestion, headaches, and blurred and distorted vision, as well as excessive hunger, a stiff neck, depression, irritability, and visual disturbance."
+Psoriasis,high,0.9,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",0ae67cc0,Psoriasis,"I've had trouble sleeping because of the itching and pain produced by the rash. My nails have little dents, which is really alarming. There is a noticeable inflammation in my nails."
+Common Cold,medium,0.66,"[{""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Common Cold"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",b5a03256,Common Cold,"I'm constantly sneezing, and the cold is making my body tremble. I'm so exhausted that I can hardly move, and my head hurts. My fever is quite high."
+Dengue,medium,0.66,"[{""diagnosis"": ""Dengue"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",98bf371c,Chicken pox,I have no energy and have lost my appetite. I have a high fever and severe headache and don't know what's wrong.
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""Acne"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""Acne"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",f78add14,Impetigo,"The rashes on my face are not healing. I tried some medications but it is not helping much. Recently, I noticed small sores near my nose. They are painful and very difficult to handle."
+Psoriasis,medium,0.66,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",86c27237,Fungal infection,"My skin has been acting up recently, becoming extremely itchy and rashes-prone. Additionally, there are certain spots that deviate from my natural skin tone in terms of hue. And now my skin has these lumps or bumps that weren't there before."
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}
+  ]
+}",3f05f436,Fungal infection,"My body has been itching terribly all over, and there are now red spots everywhere. Some of the patches also differ in tone from my natural complexion. And there are these lumps or pimples that have appeared on my skin."
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",e1e617c1,Fungal infection,"My skin has been really scratchy, and there are rashes all over my body. I have some bumps that are quite firm, as well as some areas that are a darker shade from the rest of my skin. It's extremely unpleasant."
+Cervical spondylosis,high,0.9,"[{""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""high""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Cervical spondylosis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",19848cf5,Cervical spondylosis,"Back pain, a productive cough, and muscle weakness have been bothering me. I have issues with dizziness and uneven balance, and my neck hurts."
+urinary tract infection,high,0.9,"[{""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""}, {""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""urinary tract infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",0ec58f1d,urinary tract infection,I get a burning sensation when I pee. Sometimes a lot of pain and foul smelling urine. I have been getting more urges to urinate at night
+Migraine,medium,0.66,"[{""diagnosis"": ""Migraine"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Migraine"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Migraine"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",620f37a2,Hypertension,"I've been experiencing balance issues, a headache, chest pain, and dizziness. My ability to concentrate and focus has also been challenging."
+Migraine,medium,0.66,"[{""diagnosis"": ""Migraine"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Migraine"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Migraine"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",8b7bbcb1,Hypertension,I've been experiencing balance issues in addition to feeling disoriented and dizzy. My headache has also been present nonstop.
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",1d10d30a,allergy,"I have breathing problems and become out of breath easily. My eyes ache, I have a dry, hacking cough, and my face and body are bloated."
+Dengue,medium,0.66,"[{""diagnosis"": ""Dengue"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",0ca65df6,Malaria,"Strong itchiness, chills, nausea, and a high fever are all part of my current condition. Besides having a headache, I've been perspiring a lot. I've been bothered by nausea as well as muscle ache."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",1f285ed3,Acne,I've been noticing a really nasty rash on my skin lately. It's covered in blackheads and pimples that are packed with pus. My skin has also been really scurrying.
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",470b17be,allergy,I'm always worn out and experiencing a tingle in my throat. I've also started to have dry skin. My eyes occasionally swell up
+Psoriasis,medium,0.66,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",94ddd3f9,drug reaction,"My entire body itches, and I have rashes on my back and chest. Sometimes my skin might be dry and flaky, which often results in body stains."
+urinary tract infection,high,0.9,"[{""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""}, {""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""urinary tract infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",d493bd4a,urinary tract infection,"I have to go the bathroom all the time, but the urine output is very low often just a few drops. My stomach hurts a lot and and cant seem to be able to control my urges to pee"
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",957bab8e,Varicose Veins,The veins on my legs cause a lot of discomforts when I sit for long periods of time.
+Hypertension,high,0.9,"[{""diagnosis"": ""Hypertension"", ""confidence"": ""high""}, {""diagnosis"": ""Migraine"", ""confidence"": ""low""}, {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Hypertension"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""high""},
+    {""diagnosis"": ""Migraine"", ""confidence"": ""low""},
+    {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",53177249,Hypertension,"Along with chest pain, dizziness, and a headache that feels like a narrow zone around my head, I have been having a lot of trouble."
+,,,,Expecting value: line 1 column 1 (char 0),,9dd0fd4b,urinary tract infection,"I have been frequently getting sudden strong urges to pee. There is blood in my pee sometimes and it is very foul smelling. I think I have an infection, what do I do?"
+Psoriasis,medium,0.66,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",9e104626,drug reaction,"I have rashes on my back and chest, and my entire body itches. My skin may be dry and flaky at times, which frequently leaves body marks."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}
+  ]
+}",54e1845a,Acne,Lately I've been experiencing a skin rash with a lot of pus-filled pimples and blackheads. My skin has also been scurring a lot.
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""drug reaction"", ""confidence"": ""low""}, {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""drug reaction"", ""confidence"": ""low""},
+    {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}
+  ]
+}",bf64cceb,Dengue,"I have been feeling extremely tired and fatigued, and I have no energy to do anything. I have developed rashes on my neck, which itch upon touching. "
+urinary tract infection,high,0.9,"[{""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""}, {""diagnosis"": ""dengue"", ""confidence"": ""low""}, {""diagnosis"": ""typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""urinary tract infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""typhoid"", ""confidence"": ""low""}
+  ]
+}",55bead43,urinary tract infection,"I get blood in my pee sometimes and sometimes get nauseous whie peeing. I also have a bad smell in my pee and sometimes get high temperatures at nights, help me"
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""psoriasis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""psoriasis"", ""confidence"": ""low""}
+  ]
+}",8903f89f,Fungal infection,"I have lots of itchy spots on my skin, and sometimes they turn red or bumpy. There are also some weird patches that are different colors than the rest of my skin, and sometimes I get these weird bumps that look like little balls."
+Bronchial Asthma,medium,0.66,"[{""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Bronchial Asthma"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",071eca0c,allergy,"I feel queasy, sick, and wobbly. My throat is enlarged and making it difficult for me to breathe. My chest occasionally pains all through the night, and I occasionally feel ill."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",17e6ed68,Impetigo,"I have been developing sores on my face and nose area. I am not sure what is causing this. The sores on my face are swollen and tender to the touch, and I have a burning sensation and redness of the skin."
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",06b3cbed,Impetigo,My nasal sores have crusted up and become difficult to touch. The wounds used to leak a yellow-rust coloured fluid. It is taking a lot longer to deal with using medication.
+,,,,Expecting value: line 1 column 1 (char 0),,651d5b03,Arthritis,"My neck has been really stiff, and I've had terrible muscle weakness. Due to the swelling in my joints, it has been challenging to move about. Walking has been quite unpleasant."
+peptic ulcer disease,medium,0.66,"[{""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""peptic ulcer disease"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",f08cd56e,peptic ulcer disease,I inadvertently lose weight and have a hard time gaining it back. I use antacids to get rid of the pain and discomfort I experience. It aches so much in my mouth.
+Psoriasis,high,0.9,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""high""}, {""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""fungal infection"", ""confidence"": ""medium""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""high""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""fungal infection"", ""confidence"": ""medium""}
+  ]
+}",74b4052d,Fungal infection,"My skin has been itching a lot and developing a rash. Additionally, I have a few areas of my skin that are a different hue than the rest of it. Additionally, I have a few firm pimples or breakouts on my skin."
+peptic ulcer disease,medium,0.66,"[{""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""peptic ulcer disease"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",46004a33,peptic ulcer disease,"My hunger and appetite are persistent and ravenous. Periodically, my stomach may cramp and spasm. After eating, I have bloating and gas, which makes me quite uncomfortable."
+Typhoid,medium,0.66,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",fecf9dfc,peptic ulcer disease,"I have changes in my bowel movements, such as constipation and diarrhea. I have a loss of appetite and energy and often feel very fatigued"
+,,,,Expecting value: line 1 column 1 (char 0),,f7ed5fb0,diabetes,"My body is shaking and trembling. My senses of taste and smell have gotten weaker, and I feel exhausted. I occasionally have palpitations or a rapid pulse."
+,,,,Expecting value: line 1 column 1 (char 0),,42d04908,peptic ulcer disease,"I'm feeling both bloated and uneasy. Because I've been losing weight, I no longer like eating. I occasionally get tarry, black stools and blood in my vomit."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""drug reaction"", ""confidence"": ""medium""}, {""diagnosis"": ""malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""drug reaction"", ""confidence"": ""medium""},
+    {""diagnosis"": ""malaria"", ""confidence"": ""low""}
+  ]
+}",4cd967ac,Dengue,I am facing severe joint pain and vomitting. I have developed a skin rash that covers my entire body and is accompanied by intense itching. 
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""low""}
+  ]
+}",e96ad726,Migraine,"I have been feeling hungry all the time and have had a sore neck, as well as problems with my vision."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",84d1d76a,Acne,I've been having a very unhealthy rash on my skin latterly. It's filled with pus-filled pimples and blackheads. My skin has additionally been scurring heaps.
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",983d97fd,Varicose Veins,"Recently, my calves have been cramping up frequently, especially when I am walking or standing for long periods of time. Also, the veins are very noticeable."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Arthritis"", ""confidence"": ""low""}, {""diagnosis"": ""Diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""low""},
+    {""diagnosis"": ""Diabetes"", ""confidence"": ""low""}
+  ]
+}",f71dc9a3,Varicose Veins,"I have noticed that the blood vessels in my legs are getting more noticeable than usual. It is a little concerning to me. Moreover, I am experiencing cramps every day."
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""low""}
+  ]
+}",8d3828ed,Cervical spondylosis,"In addition to having excruciating back pain, I've also been coughing up mucus and feeling weak all over. I've been feeling lightheaded and unstable on my feet, and my neck hurts as well."
+Psoriasis,high,0.9,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",13ab6ca8,Psoriasis,"My palms and soles have grown and developed severe fissures. These cracks are unpleasant and frequently bleed. Also, the skin is starting to peel off."
+Fungal infection,high,0.9,"[{""diagnosis"": ""Fungal infection"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Fungal infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",7e27f31c,diabetes,I have rashes and skin irritations especially in the folds of the skin. There is also very slow healing of any cuts and bruises I have on my skin
+,,,,Expecting value: line 1 column 1 (char 0),,26dbaba9,peptic ulcer disease,"I occasionally have burning in my upper abdomen throughout the day or at night. I get heartburn, indigestion, and regular episodes of severe nausea."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}
+  ]
+}",a2d2ed12,Dengue,"I have been experiencing back pain that is worse when I sit or stand for a long time. Also, there are rashes all over my body. There is a pain behind my eyes too."
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""Chicken pox"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""low""}
+  ]
+}",e9c3f530,Impetigo,"My skin has developed rashes, mainly near the nose. The rash is spreading to other parts of my body. I am really about worried about this."
+Bronchial Asthma,medium,0.66,"[{""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Bronchial Asthma"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",b7a93b3b,allergy,"I get symptoms of asthma, such as wheezing and breathing problems. I frequently have headaches and fever. All the time, I feel exhausted."
+Cervical spondylosis,medium,0.66,"[{""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Cervical spondylosis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",c42c917e,Cervical spondylosis,"I have been dealing with back pain, a cough that won't go away, and weakness in my arms and legs. My neck hurts and I have had problems with dizziness and maintaining my balance."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",fad118ed,Malaria,"Along with my intense scratching, chills, nausea, and high fever, I've also been feeling really unwell. Along with my headache and excessive sweating, I've been suffering from severe muscle pain and nausea."
+Common Cold,high,0.9,"[{""diagnosis"": ""Common Cold"", ""confidence"": ""high""}, {""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Common Cold"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""high""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",b7d0d17d,Common Cold,"My sinuses feel incredibly congested, and my eyes are continuously red. I just constantly feel drained and exhausted. In addition, I have a lot of uncomfortable phlegm in my throat. My lymph nodes feel bloated, and breathing has been challenging."
+Varicose Veins,medium,0.66,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""medium""}, {""diagnosis"": ""Diabetes"", ""confidence"": ""low""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Diabetes"", ""confidence"": ""low""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",9ee508bb,Varicose Veins,The cramps in my calves have been making it difficult for me to walk and do my daily activities. They come on suddenly and last for several minutes.
+,,,,Expecting value: line 1 column 1 (char 0),,c7044bf4,Varicose Veins,"The cramps in my calves are becoming more frequent and intense, making it difficult for me to walk and do my daily activities."
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",1b21ff2d,Dimorphic Hemorrhoids,"I've been experiencing problems using the restroom recently. It's quite difficult for me to go, and it hurts when I do. I've also been experiencing buttock soreness and bloody stools. My anus has also been quite itching and sensitive."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",cf6e8eaa,Varicose Veins,"The veins in my legs are causing discomfort and difficulty sleeping at night. They are swollen and protruding from my skin, making them noticeable and painful."
+,,,,Expecting value: line 1 column 1 (char 0),,ba817a27,peptic ulcer disease,"I occasionally have burning in my upper abdomen throughout the day or at night. I regularly get severe heartburn, indigestion, and nausea."
+Migraine,high,0.9,"[{""diagnosis"": ""Migraine"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""drug reaction"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Migraine"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Migraine"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""drug reaction"", ""confidence"": ""low""}
+  ]
+}",e5392d62,drug reaction,"I have headaches and migraines, and I have been having difficulties sleeping. My entire body has been shaking and twitching. Sometimes I become lightheaded."
+Bronchial Asthma,high,0.9,"[{""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""high""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Bronchial Asthma"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""high""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",825addc4,allergy,"I get breathing issues and wheezing, which are asthma symptoms. I regularly have fevers and headaches. I'm always worn out."
+Hypertension,medium,0.66,"[{""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""Migraine"", ""confidence"": ""low""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Hypertension"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Migraine"", ""confidence"": ""low""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",408aed56,Hypertension,"I have been feeling fine all day, but suddenly developed a headache, chest pain, and dizziness while driving home from work. It's been hard for me to focus and concentrate on the road since then."
+Bronchial Asthma,medium,0.66,"[{""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Bronchial Asthma"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}
+  ]
+}",a5c74332,Bronchial Asthma,"I've had ongoing health problems for a week, including a dry cough, breathing difficulties, and general weakness."
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""Varicose Veins"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""low""}
+  ]
+}",82b98b95,Dimorphic Hemorrhoids,I've been having a really hard time going to the bathroom lately. It's really painful and I'm only able to go every few days. There's also a lot of pain in my anus and around that area. My stool has been really bloody and my anus feels really irritated.
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",185533cc,Acne,"My skin has merely developed an uninherited rash. It has a lot of pus-filled pimples and blackheads. Furthermore, my skin has been quite sensitive."
+Common Cold,medium,0.66,"[{""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Common Cold"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",755dea16,Common Cold,"My nose is extremely runny, and I can't seem to stop sneezing. In addition, I constantly feel cold, exhausted, and I've been coughing a lot. My fever is also really high far above normal."
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",28105cdc,Dimorphic Hemorrhoids,"Constipation, discomfort with bowel motions, and anus pain have all recently been bothering me. My anus has been quite inflamed, and my stool has been extremely bloody."
+,,,,Expecting value: line 1 column 1 (char 0),,7d5ee47f,Psoriasis,The skin on my palms and soles is thickened and has deep cracks. These cracks are painful and bleed easily.
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}
+  ]
+}",741cd785,Fungal infection,"Doctor, I have a really itchy rash on my skin and there are some weird spots that are a different color. There are also some bumps on my skin that look like little knots"
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",04ada212,Pneumonia,"I've been feeling really weak and cold lately, and this cough won't go away. It hurts in my chest when I cough, and my heart is pounding. The mucus I'm bringing up is a rusty brown color."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",18c35325,diabetes,I have a dry mouth and throat. I also have been experiencing an increased appetite and hunger. However I do feel very tired at times
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",26dbc616,Bronchial Asthma,"Recently, I've felt quite weak and exhausted, and I've also had a cough that simply won't go away. My fever has been really high, and it has been challenging for me to catch my breath. I've been making a lot of mucous when I cough."
+Typhoid,medium,0.66,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""}
+  ]
+}",2829b407,Typhoid,"I've lost a lot of weight in the past week because I haven't been able to eat much due to nausea and vomiting. This is followed by mild fever, headache and belly pain. I'm really concerned about my health."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",28c30c60,Varicose Veins,"My legs' skin around the veins is unusual. There appears to be a large bruise. Nowadays, I get frequent cramps when I sprint or run."
+Pneumonia,medium,0.66,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",fa2be036,allergy,I have asthma like symptoms like wheezing and difficulty breathing. I often get fever and have headaches. I feel tired all the time
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",94219797,Pneumonia,"My fever is really high, and I'm having difficulty breathing. I'm drenched in sweat and shivering with chills. I'm quite fatigued, and my heart is racing. I'm also expecting some brownish phlegm."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",24ff3923,Malaria,"I've been experiencing severe itching, chills, vomiting, and a high fever. I'm also sweating excessively and have a headache. Nausea and muscle pain have also been causing me discomfort."
+,,,,"Expecting ',' delimiter: line 6 column 50 (char 174)",,25185f29,Fungal infection,"Doctor, I have these red rashes that keep popping up and my skin is continuously itching. In addition, I've observed some odd color-different spots on my skin, as well as some little nodules on my skin that appear to be expanding."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""low""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",db576333,Acne,I've been dealing with a really nasty rash on my skin lately. It's covered in blackheads and pimples that are packed with pus. My skin has also been really scurrying.
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",864e507f,Bronchial Asthma,"My persistent cough, breathing problems, and exhaustion have been making things difficult for me. I've been producing copious amounts of thick, mucoid sputum while also having a high fever. I'm currently feeling fairly ill because everything has been so tiring and exhausting."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Arthritis"", ""confidence"": ""low""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""low""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",f1b85668,Varicose Veins,The veins in my legs are causing discomfort and difficulty sleeping at night. I have no idea why it is happening. I get cramps when I sprint.
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",c5503130,Dengue,I have been experiencing severe joint pain that is making my day very difficult. I feel like vomiting all the time and have a mild headache too.
+Hypertension,high,0.9,"[{""diagnosis"": ""Hypertension"", ""confidence"": ""high""}, {""diagnosis"": ""Migraine"", ""confidence"": ""medium""}, {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Hypertension"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""high""},
+    {""diagnosis"": ""Migraine"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",4459c0b3,Hypertension,"I was in the middle of a meeting when I suddenly developed a headache, chest pain, and dizziness. It's been hard for me to focus and concentrate on the discussion since then."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}
+  ]
+}",cb6d6be4,Dengue,The headache I have been experiencing is severe and is accompanied by a feeling of pressure in my head. I have mild fever along with headache. There are small red spots on my back.
+Migraine,high,0.9,"[{""diagnosis"": ""Migraine"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""drug reaction"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Migraine"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Migraine"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""drug reaction"", ""confidence"": ""low""}
+  ]
+}",dcd78f29,drug reaction,"I have headaches and migraines, have been having difficulty sleeping. I have been having muscle twitching and tremors. Sometimes I get lightheaded"
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",28824cb2,Impetigo,"A rash has developed around my nose and lips, with huge red lesions that are painful and emit a yellow rust-colored fluid."
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",c15a23f8,Dimorphic Hemorrhoids,"Constipation and bowel movement discomfort have been very common for me lately. The region surrounding my anus and I both ache a lot. My anus is really itchy, and my stool has been bloody."
+Typhoid,high,0.9,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""high""}, {""diagnosis"": ""Dengue"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""high""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""}
+  ]
+}",68b8e7b5,Typhoid,"I've been having a lot of trouble staying hydrated because of the vomiting and diarrhea. I have a high fever, constipation, and a headache. I am also starting to get a strange pain in my stomach area and I can't do anything physical."
+,,,,Expecting value: line 1 column 1 (char 0),,9236985b,peptic ulcer disease,"I feel bloated and uneasy at the same time. I've been losing weight, and I no longer like eating. I occasionally get bloody vomit and dark, tarry stools."
+Arthritis,high,0.9,"[{""diagnosis"": ""Arthritis"", ""confidence"": ""high""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Arthritis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",8861db1c,Arthritis,"My neck has been so tense, and I've been feeling like my muscles are incredibly weak. I have trouble moving since my joints have enlarged. To walk has been quite painful."
+Common Cold,high,0.9,"[{""diagnosis"": ""Common Cold"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Common Cold"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",1706521f,allergy,"I have nasal congestion and a blocked nose. On occasion, during the night, I have stiffness and chest pain. I've also lost my senses of taste and smell."
+peptic ulcer disease,medium,0.66,"[{""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""}, {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""peptic ulcer disease"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""},
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""low""}
+  ]
+}",2cff32f1,Typhoid,"I am experiencing constipation and stomach ache, which has been really difficult. The discomfort has gotten worse, and it is seriously interfering with my everyday life."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}
+  ]
+}",d23cdc02,diabetes,"I have respiratory issues, especially when doing out. Unexpectedly, I'm sweating and flushed. I frequently have yeast infections and urinary tract infections"
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",add3974f,Acne,I woke up this morning to find a really nasty rash on my skin. There are a ton of blackheads and pimples that are filled with pus. My skin has also been really scurrying.
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",d31b8600,Dengue,"I have been experiencing chills and shivering, despite being in a warm environment. My back pains all the time and there are red spots on my arms."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""urinary tract infection"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",3206f4c5,diabetes,I have a frequent need to urinate and often have these uncontrollable urges. I feel dizzy and often confused. I have also been loss of visuals
+Migraine,high,0.9,"[{""diagnosis"": ""Migraine"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Migraine"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Migraine"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",d9a95030,Dengue,I have been experiencing a severe headache that is accompanied by pain behind my eyes. I feel tired and fatigued because of which I cannot work all day. I am worried about my health.
+,,,,Unterminated string starting at: line 3 column 3 (char 32),,75b4c63f,Fungal infection,"Doctor, My skin is covered in a very uncomfortable rash, along with some odd patches of a different hue. My skin also has a few pimples that resemble little knots"
+Fungal infection,high,0.9,"[{""diagnosis"": ""Fungal infection"", ""confidence"": ""high""}, {""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Fungal infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}
+  ]
+}",368fbadf,Psoriasis,"The skin on my genitals is red and inflamed. It is often itchy, burning, and uncomfortable. There are rashes on different parts of the body too."
+Arthritis,high,0.9,"[{""diagnosis"": ""Arthritis"", ""confidence"": ""high""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Arthritis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}
+  ]
+}",4412edf0,Arthritis,My neck has been extremely tight and my muscles have felt quite weak recently. It is difficult for me to move around without becoming stiff due to my swollen joints. Walking has also been extremely uncomfortable.
+Fungal infection,high,0.9,"[{""diagnosis"": ""Fungal infection"", ""confidence"": ""high""}, {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Fungal infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",68d5f1bd,Fungal infection,"I've had a rash that won't go away and a bothersome itching on my skin. In addition, I've seen some color-different areas and bumps that resemble knots or lumps on my skin."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Chicken pox"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""low""}
+  ]
+}",e8020d72,Chicken pox,"I have a high fever and red spots and rashes all over my body. I feel exhausted and have completely lost my appetite, which has made me weak and lethargic. I am really worried."
+Jaundice,high,0.9,"[{""diagnosis"": ""Jaundice"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Jaundice"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Jaundice"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",ffbfc1f3,Jaundice,"I've been itchy and throwing up. In addition, I have lost weight and feel really exhausted. My skin has become yellow and I have a severe temperature. I have abdominal ache and black urine."
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",b8a7d818,Common Cold,"I keep sneezing, and my eyes don't quit dripping. It's incredibly difficult for me to breathe because it feels like there is something trapped in my throat. I often feel exhausted, and lately, I've had a lot of phlegm. Moreover, my lymph nodes are enlarged."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",a79539aa,Varicose Veins,The pain in my calves is constant and becomes worse when I stand or walk for long periods of time. I am getting constant cramps and can't run for longer periods of time.
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",48f4787b,Common Cold,I've been really weary and ill. I've been suffering from a severe cough and sore throat. I've got a lot of chills and a pretty high temperature. I simply feel tired and run down.
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",020e71fb,Acne,"I woke up today to find that I had a major rash all over my body. There are lots of pimples filled with pus and blackheads everywhere, and my skin has been scurrying a lot."
+Hypertension,medium,0.66,"[{""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""Diabetes"", ""confidence"": ""low""}, {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Hypertension"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Diabetes"", ""confidence"": ""low""},
+    {""diagnosis"": ""Peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",a5989565,Migraine,"Along with excessive appetite, a stiff neck, depression, impatience, and visual disturbance, I've also been having indigestion, headaches, blurred vision, and acid reflux. These symptoms have been bothering me and interfering with my usual activities."
+gastroesophageal reflux disease,high,0.9,"[{""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""gastroesophageal reflux disease"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",8c0fc499,peptic ulcer disease,I have difficulty swallowing food and often get a sensation of the food getting stuck in my throat. I have constant belching and bloating. There is a persitent sour taste in my mouth
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""}, {""diagnosis"": ""migraine"", ""confidence"": ""medium""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""migraine"", ""confidence"": ""medium""}
+  ]
+}",8f055ee9,Migraine,"I have been experiencing acidity, indigestion, and headaches, as well as blurred and distorted vision, excessive hunger, a stiff neck, depression, irritability, and visual disturbance"
+urinary tract infection,high,0.9,"[{""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""}, {""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""urinary tract infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""dengue"", ""confidence"": ""low""}
+  ]
+}",99a49f9b,urinary tract infection,"I need to relieve myself regularly, but I can't seem to get my bladder to empty. On sometimes, I get intense, uncontrollable urges to urinate, along with dark or red urine."
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""Chicken pox"", ""confidence"": ""low""}, {""diagnosis"": ""Acne"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""low""},
+    {""diagnosis"": ""Acne"", ""confidence"": ""low""}
+  ]
+}",aef3eb56,Impetigo,"My face is covered in sores. Most of them are near my nose and lips. The lesions are causing discomfort or suffering, and a yellow or rust-colored fluid is oozing from them."
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""impetigo"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""impetigo"", ""confidence"": ""low""}
+  ]
+}",5f315726,Dimorphic Hemorrhoids,I've been having trouble going to the bathroom. It's been really hard to go and it hurts when I do. My anus is really sore and it's been bleeding when I go. It's really painful and I'm really uncomfortable.
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",0e9ca416,Impetigo,"Initially, I developed small red sores near my nose and neck. Now, I am having a high fever and the sores have become more painful and inflamed over the past few days."
+Dengue,medium,0.66,"[{""diagnosis"": ""Dengue"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",72a23c48,diabetes,I feel my muscles trembling and shaking. I feel worn out and my senses of taste and smell have diminished. Sometimes I have palpitations or a quick heartbeat.
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",6e6716ae,allergy,I have a sore throat and frequently sneeze. Sometimes the skin around my eyes and my lips swells. I just can't stop sneezing once I get going.
+Typhoid,high,0.9,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",45fe61d4,Typhoid,"I've had a high fever, particularly at night. It's been quite unpleasant. There is a little headache, as well as constipation and diarrhea. I don't feel like eating anything."
+diabetes,medium,0.66,"[{""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}
+  ]
+}",85cea7c9,Migraine,"Along with excessive appetite, a stiff neck, depression, impatience, and visual disturbance, I've also been suffering indigestion, headaches, blurred vision, and stomach problems."
+,,,,Expecting value: line 1 column 1 (char 0),,61e51e15,gastroesophageal reflux disease,"I have heartburn and indigestion. I regularly throw up everything I eat, and swallowing is difficult for me since food gets stuck in my throat. I'm experiencing pain in my upper abdomen."
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",9d2e6f1d,Bronchial Asthma,"My fever is through the roof, and I'm so weak and tired out. I've been coughing up a lot of mucous, and managing all of these symptoms has been really hard. Everything is making me so upset."
+Chicken pox,high,0.9,"[{""diagnosis"": ""Chicken pox"", ""confidence"": ""high""}, {""diagnosis"": ""Dengue"", ""confidence"": ""medium""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Chicken pox"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""high""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}
+  ]
+}",b5eddfb1,Impetigo,"I am experiencing skin rashes with burning sores. The blistering sores are fluid-filled, elevated, red colored lesions that are unpleasant to touch. I also have a high fever."
+,,,,Expecting value: line 1 column 1 (char 0),,ffb10e31,peptic ulcer disease,"On occasion, throughout the day or at night, I have burning in my upper abdomen. I frequently get extreme nauseous episodes, heartburn, and indigestion."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""}
+  ]
+}",11da8c71,Migraine,"Along with impaired seeing, excessive eating, a sore neck, melancholy, impatience, and constant headaches, I've also been fighting heartburn, acid reflux, and indigestion."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",3ed45011,Acne,I've been having a really bad rash on my skin lately. It's full of pus-filled pimples and blackheads. My skin has also been scurring a lot.
+Fungal infection,medium,0.66,"[{""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Fungal infection"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",a023d624,drug reaction,"My monthly cycle has changed, and I've had an unexpected vaginal discharge. I frequently experience mood swings and experience occasional agitation."
+Chicken pox,high,0.9,"[{""diagnosis"": ""Chicken pox"", ""confidence"": ""high""}, {""diagnosis"": ""Dengue"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Chicken pox"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""high""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",952d727d,Chicken pox,I have red spots on my arms and legs and itching them makes it difficult for me to sleep at night. I also have severe headaches and a mild fever.
+Bronchial Asthma,medium,0.66,"[{""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Bronchial Asthma"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",3a1db06c,diabetes,I have persistent dry cough. My infections dont seem to be healing and I have palpitations. I also have this problem of sore throat that does seem to go away
+peptic ulcer disease,high,0.9,"[{""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""high""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""peptic ulcer disease"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""high""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",5ea8248a,peptic ulcer disease,I lose weight unintentionally and find it challenging to acquire weight. I use antacids to ease the pain and discomfort I experience. My mouth feels horrible.
+Typhoid,medium,0.66,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""}
+  ]
+}",a0c16c25,Typhoid,I am having severe stomach discomfort and diarrhoea. I have a high fever along with a headache. The previous several days have been really unpleasant.
+Hypertension,medium,0.66,"[{""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""Migraine"", ""confidence"": ""low""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Hypertension"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Migraine"", ""confidence"": ""low""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",29a8300d,Hypertension,"I've been encountering poor balance, a headache, chest pain, and dizziness. My ability to pay attention and focus has also been problematic."
+diabetes,medium,0.66,"[{""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""Migraine"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""Migraine"", ""confidence"": ""low""}
+  ]
+}",928d818b,diabetes,I have blurred vision and it only seems to be getting worse. I feel fatigued and tired all the time. I also feel very dizzy and light headed at times
+Arthritis,high,0.9,"[{""diagnosis"": ""Arthritis"", ""confidence"": ""high""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Arthritis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",dcaaccac,Arthritis,My neck has been very tight and my muscles have felt quite weak recently. it's tough on behalf of me to maneuver around while not changing into stiff thanks to my swollen joints. Walking has additionally been very uncomfortable.
+diabetes,medium,0.66,"[{""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}
+  ]
+}",0e96feb3,diabetes,"My emotions fluctuate, and it's hard for me to concentrate. My mind can be foggy and foggy at times, making it difficult for me to perform even simple chores."
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""psoriasis"", ""confidence"": ""low""}, {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""psoriasis"", ""confidence"": ""low""},
+    {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}
+  ]
+}",ad0da45d,Psoriasis,My skin is very sensitive and reacts easily to changes in temperature or humidity. I often have to be careful about what products I use on my skin.
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",27423f94,Acne,I've been struggling with a really nasty rash on my skin lately. It's covered in blackheads and pimples that are packed with pus. My skin has also been really scurrying.
+Common Cold,medium,0.66,"[{""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Common Cold"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",0393c370,Chicken pox,"My lymph nodes are swollen, causing discomfort in my neck and armpits. I don't know what's causing it."
+Pneumonia,medium,0.66,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""low""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""low""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",27d3b20c,Cervical spondylosis,"I have been experiencing severe back pain, a cough that produces phlegm, and weakness in my muscles. My neck also hurts and I have been feeling dizzy and unsteady on my feet."
+Dengue,medium,0.66,"[{""diagnosis"": ""Dengue"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",48267a48,Malaria,"Strong itchiness, chills, nausea, and a high temperature have been plaguing me. Besides having a headache, I'm also perspiring a lot. I've been suffering from severe muscle pain and nausea."
+Pneumonia,medium,0.66,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",48bfbd0f,Common Cold,"I've been quite exhausted and ill. My throat has been quite painful, and I've had a fairly nasty cough. I've got a lot of chills and a pretty high temperature. Just feeling extremely run down and weak"
+Cervical spondylosis,high,0.9,"[{""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""high""}, {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Cervical spondylosis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",eb9e8059,Arthritis,"I've been experiencing stiffness and weakness in my neck muscles recently. Since my joints have grownup, it's heavy on behalf of American state to run whereas not getting stiff. additionally, walking has been very uncomfortable."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",c6c1e267,Migraine,"Along with increased hunger, a sore neck, melancholy, impatience, and visual distortion, I've also been experiencing acid reflux, indigestion, frequent headaches, and blurred eyesight."
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""Acne"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""Acne"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",577a39a3,Impetigo,I have rashes on my face. I am starting to have small sores around my nose and often a yellow fluid comes out of the sores. The sores are becoming extremely painful.
+Psoriasis,medium,0.66,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",c1a41f1c,Fungal infection,"I've been really itchy lately and there are these rashy spots all over my skin. There are also some areas that look different in shade than the rest of my skin, and I've had some bumps that are kind of hard."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}
+  ]
+}",60fb4070,diabetes,I regularly experience these intense urges and the want to urinate. I frequently feel drowsy and lost. I've also significantly lost my vision.
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""Urinary tract infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""Urinary tract infection"", ""confidence"": ""low""}
+  ]
+}",f8db599d,Dimorphic Hemorrhoids,"I've been having trouble going to the restroom recently. When I try to go, it's really uncomfortable, and my anus hurts a lot. I've also had some blood in my stool, and my anus has been really uncomfortable."
+,,,,Expecting value: line 1 column 1 (char 0),,a973d23d,Arthritis,"My muscles area unit quite weak, and my neck has been terribly stiff. My joints have swollen, making it hard on behalf of Maine to steer regarding whereas not feeling stiff. Walking has put together been terribly uncomfortable."
+,,,,Expecting value: line 1 column 1 (char 0),,435ae50a,peptic ulcer disease,I have abdominal pain and it gets only worse if I bend over or lie down. I feel discomfort when I eat certain foods such as spicy or acidic food. Sometimes I get loose stools because of this
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}
+  ]
+}",90b8eda2,Bronchial Asthma,"I've been having issues with exhaustion, a dry cough, and breathing. I have a very high fever and have been coughing up a lot of thick, mucoid phlegm."
+gastroesophageal reflux disease,high,0.9,"[{""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""gastroesophageal reflux disease"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",5913ef76,gastroesophageal reflux disease,"I frequently have indigestion and heartburn, especially after eating spicy or fatty foods. My chest hurts when I lean forward or while I'm lying down. Additionally, my chest hurts a lot."
+gastroesophageal reflux disease,high,0.9,"[{""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""gastroesophageal reflux disease"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",15075c7b,gastroesophageal reflux disease,"My throat often feels like it is burning, especially after eating. A bitter or sour aftertaste that I occasionally experience also makes me feel unwell."
+Cervical spondylosis,high,0.9,"[{""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""high""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Cervical spondylosis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",b2c91d74,Cervical spondylosis,"I have been experiencing intense back pain, a dry cough, and a lack of strength in my limbs. My neck hurts and I have been feeling dizzy and unsteady on my feet."
+Jaundice,high,0.9,"[{""diagnosis"": ""Jaundice"", ""confidence"": ""high""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Jaundice"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Jaundice"", ""confidence"": ""high""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""}
+  ]
+}",c49e5c3c,Jaundice,"I've had a scratchy stomach and been throwing up. I have also lost weight and am really exhausted. I have a high fever and yellow skin. As well as you, I have been having stomach pain."
+Arthritis,high,0.9,"[{""diagnosis"": ""Arthritis"", ""confidence"": ""high""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Arthritis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",a6892efd,Arthritis,"Lately i have been experiencing muscle weakness, a stiff neck, swelling joints, and stiffness after I attempt to move around. it is also been very painful to steer."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}
+  ]
+}",61d626ae,Acne,"A skin rash with several pus-filled pimples and blackheads has been bothering me lately. Additionally, my skin has been scurring a lot."
+Cervical spondylosis,medium,0.66,"[{""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Cervical spondylosis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}
+  ]
+}",af4442c3,Cervical spondylosis,"My arms and legs have been weak, and I have been suffering from back pain and a persistent cough. In addition to experiencing neck pain and balance issues, I also suffer dizziness."
+Bronchial Asthma,medium,0.66,"[{""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Bronchial Asthma"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",f8fb94a3,diabetes,I have difficulty breathing especially during physical activity. I have unusual sweating and flushing. I frequently get yeast infections
+Cervical spondylosis,medium,0.66,"[{""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Cervical spondylosis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""low""}
+  ]
+}",d09e0474,Cervical spondylosis,"I've been struggling with back pain, a chronic cough, and limb weakness. I've been feeling disoriented and weak on my feet, and my neck hurts."
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",50b8ea90,Bronchial Asthma,"I've been struggling with difficulty breathing, a constant cough, and fatigue. My fever is extremely high, and I've been coughing up a lot of thick, mucoid sputum. It's been so hard to deal with all of this, and I'm just feeling so drained and worn out"
+Jaundice,high,0.9,"[{""diagnosis"": ""Jaundice"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Jaundice"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Jaundice"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",bf53ea8d,Jaundice,I have been feeling itchy and have been vomiting. I am also very fatigued and have lost weight. My fever is high and my skin has become yellow. My urine is dark and I have abdominal pain
+Dimorphic Hemorrhoids,medium,0.66,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""medium""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""medium""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""low""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",b5890e3d,peptic ulcer disease,"I've lost a lot of stuff because of my bloody stools, including iron and bloos. As a result, I now have anaemia and generally feel rather weak."
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",4d3e80fc,Pneumonia,"I'm saturated with sweat and struggling to breathe. My throat is blocked with mucous, and I'm uncomfortable. My heart is racing, and my chest aches. I'm coughing up a darkish stringy mucous."
+Cervical spondylosis,medium,0.66,"[{""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Cervical spondylosis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",e83b0628,Cervical spondylosis,"I've been experiencing back pain, a dry cough, and muscle weakness. I've been experiencing neck pain, feeling lightheaded, and having trouble standing still."
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""low""}
+  ]
+}",d2fddf41,allergy,I have itchy and red skin. Sometimes these result in flaking. My face and lips puff up and causes a lot of inconvinience. I get watery eyes sometimes and headches when the puffing gets severe
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""drug reaction"", ""confidence"": ""low""}, {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""drug reaction"", ""confidence"": ""low""},
+    {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}
+  ]
+}",8e2f6c77,allergy,"I feel fatigued all the time, and have a tingling sensation in my throat. I have also developed flaky skin. Sometimes I get puffy eyes and sometimes puffs up too."
+Chicken pox,high,0.9,"[{""diagnosis"": ""Chicken pox"", ""confidence"": ""high""}, {""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Chicken pox"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""high""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""low""}
+  ]
+}",dfd83869,Chicken pox,There are small red spots all over my body that I can't explain. The bumps are itchy and uncomfortable and seem to spread rapidly. It's worrying me.
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""Acne"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""Acne"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",ca0f9089,Impetigo,"I believe I have some skin disease. There are rashes on my face and small sores near my nose. The sores have become red, and painful and some kind of a yellow ooze discharges from them."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",85d495db,Acne,My skin has now developed a revolting rash. There are pus-filled pimples and blackheads everywhere. My skin has also been really sensitive.
+allergy,high,0.9,"[{""diagnosis"": ""allergy"", ""confidence"": ""high""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""high""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",e70deb2c,allergy,I always get a tickle in my throat and feel fatigued. My skin has begun to feel dry as well. I have ocular edema on occasion.
+Impetigo,high,0.9,"[{""diagnosis"": ""Impetigo"", ""confidence"": ""high""}, {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Impetigo"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""high""},
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",300df535,Impetigo,"I noticed a skin rash on my face. It was made up of a blistering sore. Today I observed a yellow colored fluid coming out of the sores, I am not sure what it is."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""low""}, {""diagnosis"": ""Arthritis"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""low""},
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""low""}
+  ]
+}",900fb626,Varicose Veins,"The veins on my legs are very noticeable and are causing me a lot of discomforts. They are swollen and protrude from my skin, making them visible through my clothing."
+Typhoid,high,0.9,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""high""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""high""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""}
+  ]
+}",ba646880,Typhoid,"I am having some diarrhea and constipation, which has been quite concerning. In my stomach, there is a severe, painful ache. I'm constantly exhausted and don't feel like eating anything."
+Acne,high,0.9,"[{""diagnosis"": ""Acne"", ""confidence"": ""high""}, {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Acne"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Acne"", ""confidence"": ""high""},
+    {""diagnosis"": ""Impetigo"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}
+  ]
+}",1f8d0ad4,Acne,I've just developed a severe rash on my skin. It's clogged with pus-filled pimples and blackheads. My skin has also been quite sensitive.
+,,,,Unterminated string starting at: line 2 column 3 (char 4),,d07c5fc2,Arthritis,"Lately, I've been having stiffness and weakness in my neck muscles. Since my joints have matured, it is difficult for the American state to operate without becoming stiff. Furthermore, walking has been quite painful."
+Typhoid,high,0.9,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",3f68e44b,Typhoid,"I've had a lot of bloating and constipation, which has been really painful. There is a lot of pressure and pain in my stomach area. I get a high fever and chills every night."
+gastroesophageal reflux disease,medium,0.66,"[{""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""}, {""diagnosis"": ""Migraine"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""gastroesophageal reflux disease"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Migraine"", ""confidence"": ""low""}
+  ]
+}",28c73ac2,Migraine,"Stomach acid, indigestion, frequent headaches, hazy and distorted vision, increased appetite, stiff neck, depression, irritation, and visual distortion have all been bothering me."
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",c829b717,Pneumonia,"I'm having problems breathing and have a very high fever. I'm perspiring a lot and experiencing extreme fatigue and chilly. My heart is racing, and I'm coughing up some brownish mucus."
+urinary tract infection,high,0.9,"[{""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""}, {""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""urinary tract infection"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""high""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",4db1d5c9,urinary tract infection,I have been urinating with blood in it. I occasionally feel queasy when urinating. I frequently almost have a fever at the same time.
+,,,,"Expecting ',' delimiter: line 5 column 55 (char 123)",,c73a8f9a,Arthritis,"My neck has been extremely stiff and my muscles have been extremely weak. As a result of swelling in my joints, I find it difficult to move around without feeling stiff. Additionally, walking has been extremely uneasy."
+Jaundice,high,0.9,"[{""diagnosis"": ""Jaundice"", ""confidence"": ""high""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Jaundice"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Jaundice"", ""confidence"": ""high""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""}
+  ]
+}",c7f67518,Jaundice,"I've been feeling scratchy, sick, and worn out. I also had a high fever and lost weight. Both my skin and my urine have become yellow. Additional stomach pain that I've been having"
+Arthritis,high,0.9,"[{""diagnosis"": ""Arthritis"", ""confidence"": ""high""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Arthritis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",f9c0999f,Arthritis,"My muscles have been quite weak, and my neck has been really stiff. My joints have swollen, making it difficult for me to move without becoming stiff. Walking has been quite uncomfortable as well."
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",a65ce08e,Bronchial Asthma,"I've been struggling with a persistent cough, breathing issues, and exhaustion. I've been coughing up a lot of thick, mucoid sputum and have a high fever. All of this has been really tiring and exhausting, and right now I'm feeling rather ill."
+drug reaction,low,0.33,"[{""diagnosis"": ""drug reaction"", ""confidence"": ""low""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""diabetes"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""drug reaction"",
+  ""confidence"": ""low"",
+  ""top_3"": [
+    {""diagnosis"": ""drug reaction"", ""confidence"": ""low""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""low""}
+  ]
+}",579445c1,drug reaction,I have difficulty in maintianing concentration and very low mental clarity. I often forget things and in general have difficulty remembering things
+gastroesophageal reflux disease,high,0.9,"[{""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""gastroesophageal reflux disease"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",96b1f6e2,gastroesophageal reflux disease,"I frequently have heartburn and indigestion, particularly after consuming spicy or fatty foods. When I lie down or stoop over, my chest discomfort worsens. My chest hurts quite a bit too."
+Psoriasis,high,0.9,"[{""diagnosis"": ""Psoriasis"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Psoriasis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Psoriasis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",2ce136b1,Psoriasis,"I have been experiencing a skin rash on my arms, legs, and torso for the past few weeks. It is red, itchy, and covered in dry, scaly patches."
+Common Cold,high,0.9,"[{""diagnosis"": ""Common Cold"", ""confidence"": ""high""}, {""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Common Cold"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""high""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}
+  ]
+}",f8137bf1,Common Cold,"I can't stop sneezing, and I'm exhausted and sick. My throat is really uncomfortable, and there is a lot of junk in my nose and throat. My neck is also swollen and puffy."
+gastroesophageal reflux disease,high,0.9,"[{""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""}, {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""gastroesophageal reflux disease"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""},
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",19ddc212,gastroesophageal reflux disease,"I have a tendency to burp and belch regularly. I often get chest discomfort that radiates to my arm, jaw, and neck. My chest feels tight and stressed."
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""urinary tract infection"", ""confidence"": ""low""}
+  ]
+}",9b8d53f4,Dimorphic Hemorrhoids,"I've been experiencing a lot of bowel movement issues recently. It's difficult to go, and it hurts when I do. My anus is quite painful, and it has been bleeding whenever I go. It's excruciatingly painful, and I'm quite uneasy."
+gastroesophageal reflux disease,high,0.9,"[{""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""}, {""diagnosis"": ""diabetes"", ""confidence"": ""medium""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""gastroesophageal reflux disease"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""high""},
+    {""diagnosis"": ""diabetes"", ""confidence"": ""medium""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""}
+  ]
+}",0ae34223,Migraine,"I have been suffering from acid reflux, indigestion, and regular headaches, as well as distorted vision, excessive hunger, a sore neck, depression, irritability, and visual disturbance."
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""}
+  ]
+}",9a496a2d,allergy,"I frequently have exhaustion, a terrible taste in my mouth, and throat itchiness. My muscles are also burning and uncomfortable. Sometimes I have cramps all throughout my body."
+Chicken pox,medium,0.66,"[{""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Chicken pox"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Chicken pox"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",99837b0d,Chicken pox,"I have swollen lymph nodes and red spots all over my body, and they are causing discomfort. I also have a mild fever and feel tired most of the time."
+Dimorphic Hemorrhoids,high,0.9,"[{""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dimorphic Hemorrhoids"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dimorphic Hemorrhoids"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",499bd9a4,Dimorphic Hemorrhoids,"Lately I've been really constipated, and it's been really painful when I do go to the bathroom. I've also noticed some blood in my stool, and my anus has been really irritated."
+peptic ulcer disease,medium,0.66,"[{""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""}, {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""}, {""diagnosis"": ""dengue"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""peptic ulcer disease"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""peptic ulcer disease"", ""confidence"": ""medium""},
+    {""diagnosis"": ""gastroesophageal reflux disease"", ""confidence"": ""low""},
+    {""diagnosis"": ""dengue"", ""confidence"": ""low""}
+  ]
+}",309c79c2,Typhoid,"I am experiencing a lot of nausea and vomiting, and it's been quite difficult for me to eat anything. I've entirely lost my appetite, and as a result, I have become quite weak."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",0d66862f,Malaria,"I've been experiencing intense itching, chills, vomiting, and a high fever. I'm also sweating a lot and have a headache. Nausea and muscle pain have been making me feel miserable."
+,,,,Expecting value: line 1 column 1 (char 0),,9b363bb3,Arthritis,"Recently, the muscles in my neck have become tight and weak. Since my joints have matured, it is difficult for the American government for me to run without becoming stiff. Walking has also been quite unpleasant."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""allergy"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""allergy"", ""confidence"": ""low""}
+  ]
+}",dd39d846,Varicose Veins,"I have a rash on my legs that is giving me a lot of pain. There appears to be a cramp, and I can see visible veins on the calf."
+diabetes,high,0.9,"[{""diagnosis"": ""diabetes"", ""confidence"": ""high""}, {""diagnosis"": ""hypertension"", ""confidence"": ""low""}, {""diagnosis"": ""common cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""diabetes"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""diabetes"", ""confidence"": ""high""},
+    {""diagnosis"": ""hypertension"", ""confidence"": ""low""},
+    {""diagnosis"": ""common cold"", ""confidence"": ""low""}
+  ]
+}",827fcf2d,diabetes,My throat and mouth are dry. I've also been feeling more hungry and more hungry. But sometimes I do feel quite exhausted.
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""drug reaction"", ""confidence"": ""low""}, {""diagnosis"": ""impetigo"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""drug reaction"", ""confidence"": ""low""},
+    {""diagnosis"": ""impetigo"", ""confidence"": ""low""}
+  ]
+}",0040837d,Chicken pox,"My arms and face have small lymph nodes, which are starting to swell. My day has been made really miserable by the constant itching and pain."
+Pneumonia,high,0.9,"[{""diagnosis"": ""Pneumonia"", ""confidence"": ""high""}, {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""}, {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Pneumonia"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Pneumonia"", ""confidence"": ""high""},
+    {""diagnosis"": ""Bronchial Asthma"", ""confidence"": ""low""},
+    {""diagnosis"": ""Common Cold"", ""confidence"": ""low""}
+  ]
+}",d1b2d786,Bronchial Asthma,"I've been having breathing issues, a persistent cough, and exhaustion. I've been coughing up a lot of thick, mucoid sputum and have a very high fever. I'm just feeling so exhausted and tired from having to cope with all of this."
+,,,,"Expecting ',' delimiter: line 5 column 67 (char 147)",,863f882a,urinary tract infection,"My lower abdomen aches, and it feels like it may explode when I urinate. Since I began experiencing these new symptoms, my body temperature has been consistently low. That's why I've been weak."
+Arthritis,medium,0.66,"[{""diagnosis"": ""Arthritis"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Arthritis"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",54948708,Dengue,"I have been experiencing severe joint pain that makes it difficult for me to move and perform my daily activities. Also, I have lost my apetite because of which I feel weak."
+Varicose Veins,high,0.9,"[{""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""}, {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""}, {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Varicose Veins"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Varicose Veins"", ""confidence"": ""high""},
+    {""diagnosis"": ""Fungal infection"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Hypertension"", ""confidence"": ""low""}
+  ]
+}",8a7c7405,Varicose Veins,The skin around the veins on my legs is dry and flaky. It seems there is a major bruise and my legs have started to swell.
+Typhoid,medium,0.66,"[{""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Dengue"", ""confidence"": ""low""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Typhoid"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Dengue"", ""confidence"": ""low""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""}
+  ]
+}",a255cb87,Typhoid,"Because of the vomiting and diarrhea, I've been having a lot of difficulties staying hydrated. There is a mild fever, too, as well as stomach pain."
+allergy,medium,0.66,"[{""diagnosis"": ""allergy"", ""confidence"": ""medium""}, {""diagnosis"": ""fungal infection"", ""confidence"": ""low""}, {""diagnosis"": ""impetigo"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""allergy"",
+  ""confidence"": ""medium"",
+  ""top_3"": [
+    {""diagnosis"": ""allergy"", ""confidence"": ""medium""},
+    {""diagnosis"": ""fungal infection"", ""confidence"": ""low""},
+    {""diagnosis"": ""impetigo"", ""confidence"": ""low""}
+  ]
+}",62908ff5,Fungal infection,"All over my body, there has been a severe itching that has been followed by a red, bumpy rash. My skin also has a few darkened spots and a few tiny, nodular breakouts. It has been happening for several days and is becoming worse."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Malaria"", ""confidence"": ""medium""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""low""}
+  ]
+}",a0f77e68,Malaria,"I'm suffering from intense itching, chills, vomiting, and a high fever. I've also been sweating a lot and have a headache. Nausea and muscle pain have also been bothering me."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199653, Requested 839. Please try again in 3m32.543999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,e95667ba,Fungal infection,"I've had a pretty uncomfortable itch all over my body, as well as red and bumpy areas on my skin. There are also certain patches of my skin that are a different hue than the rest of it, and I've had some pimples that resemble little balls."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199641, Requested 817. Please try again in 3m17.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,ee6126d1,allergy,"I often sneeze and have a runny nose. My eyes are scratchy and frequently runny, and I frequently cough. My head hurts constantly."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199629, Requested 829. Please try again in 3m17.856s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,c3d8832d,Arthritis,"Lately, my neck has been tight and my muscles have been weakened. I have swelling joints that make it difficult for me to move about without getting stiff. It has also been agonisingly painful to walk."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199616, Requested 823. Please try again in 3m9.648s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,be0b7989,Migraine,"Acidity and indigestion are among the digestive problems I've been having, along with regular headaches, blurred vision, increased hunger, stiff neck, sadness, impatience, and visual disruption."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199604, Requested 822. Please try again in 3m4.031999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,3e3d1862,gastroesophageal reflux disease,"I get a sour taste in my mouth all the time, even when there is nothing acidic in my stomach. I often get the hiccups and have a lump in my throat."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199592, Requested 828. Please try again in 3m1.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,ee542769,Arthritis,I've been feeling really weak in my muscles lately and my neck has been really stiff. My joints have been swelling up and it's hard for me to move around without feeling stiff. Walking has been really painful too.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199579, Requested 827. Please try again in 2m55.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,c3aa21cf,Fungal infection,"I've been quite itchy recently, and I have rashy places all over my body. There are also some regions that don't appear to be the typical hue of my skin, and I've experienced some firm lumps."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199567, Requested 824. Please try again in 2m48.912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,c71c8d8e,urinary tract infection,"I have to constantly to go the bathroom to relieve myself, but cant seem to empty my bladder. I get these very strong and uncontrollable urges to pee and sometimes get dark or bloody pee"
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199555, Requested 822. Please try again in 2m42.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,91058b89,Chicken pox,The itching is making it hard for me to sleep at night. I can't seem to get any rest because the rash is so itchy and uncomfortable. I'm feeling really tired and exhausted.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199542, Requested 827. Please try again in 2m39.408s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,5578c934,Psoriasis,"My genital skin is red and irritated. It is frequently irritating, burning, and unpleasant. There are also rashes in various places of the body. Also, I have a strange pain in my joints."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199533, Requested 827. Please try again in 2m35.519999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,6985df1d,Arthritis,I've been feeling truly frail in my muscles recently and my neck has been truly solid. It has been difficult for me to move around because my joints have been swelling. Walking has also been extremely painful.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199520, Requested 820. Please try again in 2m26.88s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,fdea0924,Chicken pox,"I've been suffering from severe itching all over my body, along with a fever and headache. The red spots are starting to swell and it is getting really uncomfortable every day."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199508, Requested 822. Please try again in 2m22.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,280179b7,Migraine,"Along with distorted eyesight, excessive appetite, a painful neck, anxiety, irritability, and regular headaches, I have also been battling acid reflux, indigestion, and regular headaches."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199495, Requested 806. Please try again in 2m10.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,4f838150,Chicken pox,I have small lymph nodes on my arms and face. The itching is making my day very uncomfortable.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199483, Requested 810. Please try again in 2m6.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,8a85716d,drug reaction,"I struggle to maintain focus, and my mental clarity is really poor. I have trouble remembering things and frequently forget stuff."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199471, Requested 812. Please try again in 2m2.256s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,d6601ce8,Chicken pox,"I've been suffering from severe itching all over my body, and it's driving me insane. I also have a red and irritating rash."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199458, Requested 830. Please try again in 2m4.416s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,a2c2cc4b,Arthritis,"My muscles have been feeling rather weak lately, but my neck has been really strong. My joints have swollen, making it challenging for me to move about. It has also been excruciatingly difficult to walk."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199446, Requested 823. Please try again in 1m56.208s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,06cca2b4,Malaria,"I've had intense itching, chills, vomiting, and a high fever. I'm also sweating a lot and have a headache. Nausea and muscle pain have been making me feel miserable."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199434, Requested 822. Please try again in 1m50.592s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,1b5daec2,Migraine,"Along with headaches, indigestion, acid reflux, excessive appetite, a sore neck, sadness, impatience, and visual disturbance, I have also been experiencing blurred and distorted vision."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199421, Requested 822. Please try again in 1m44.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,6313bbf5,Arthritis,"I've been experiencing severe muscular weakness, and my neck has been really stiff. It has been difficult to move about since my joints have swollen. It has been really uncomfortable to walk."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199406, Requested 819. Please try again in 1m37.199999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,62dd5422,Varicose Veins,"As I am overweight, I have noticed that my legs are swollen and the blood vessels are more visible than usual. The swelling seems to be getting worse over time."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199394, Requested 827. Please try again in 1m35.472s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,9dc487d6,allergy,"My skin is irritated and inflamed. Sometimes, they can flake. My lips and cheeks expand, and it is really unpleasant. Because of the puffing, I occasionally have headaches and wet eyes."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199384, Requested 818. Please try again in 1m27.264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,b0ef95d9,Impetigo,My cheeks and nose are covered with red sores. I've observed that the rash on my neck and chest is spreading faster. I am also developing a mild fever.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199372, Requested 811. Please try again in 1m19.056s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,c15f3a82,Impetigo,I initially had rashes on my face and near my nose. But now the rash is spreading down my arms and legs.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199360, Requested 818. Please try again in 1m16.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,4cc86bdb,gastroesophageal reflux disease,"I have a persistent sour taste in my mouth, even when I haven't eaten anything acidic. I get frequent hiccups and a feeling of lump in my throat."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199347, Requested 821. Please try again in 1m12.576s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,33c0c26a,Typhoid,"I have developed diarrhea. It is accompanied by severe pain in my belly area. I don't feel like eating anything, and most of the time, I have a mild headache."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199335, Requested 815. Please try again in 1m4.8s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,a128992e,Cervical spondylosis,"I've been having periodic coughing fits, terrible back pain, and limb weakness. I've been feeling neck pain as well as a dizzy and unstable sensation."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199323, Requested 829. Please try again in 1m5.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,2e1f2b4e,Malaria,"Strong itchiness, chills, nausea, and a high fever are all part of my current condition. Besides having a headache, I've been perspiring a lot. I've been uncomfortable from nausea and muscle ache, too."
+Dengue,high,0.9,"[{""diagnosis"": ""Dengue"", ""confidence"": ""high""}, {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""}, {""diagnosis"": ""Malaria"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Dengue"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Dengue"", ""confidence"": ""high""},
+    {""diagnosis"": ""Typhoid"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Malaria"", ""confidence"": ""low""}
+  ]
+}",dc9aad08,Chicken pox,"I have lost my appetite completely and can't seem to eat anything. I feel like vomiting and feel exhausted. I noticed rashes on my skin, which is really concerning me."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199990, Requested 689. Please try again in 4m53.328s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,b5df8784,Psoriasis,"My arms, face and back are all red and irritated. It is frequently irritating and unpleasant. My nails have a strange inflammation and have developed small dents. I have never seen anything like this."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199978, Requested 817. Please try again in 5m43.44s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,8bc597fe,Typhoid,"I've been having a lot of difficulty breathing, and I feel like I'm constantly nauseous. I also have mild belly pain. It's been terrifying at times."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199966, Requested 816. Please try again in 5m37.824s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,e13d4dcb,allergy,I have a plugged nose and nasal congestion. I occasionally have stiffness and chest discomfort during the night. I've also lost my ability to smell and taste.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199953, Requested 827. Please try again in 5m36.96s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,293953b1,Acne,"This morning, I saw a large rash all over my body. There are a lot of pus-filled pimples and blackheads all over my face, and my skin has been scurrying a lot."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199941, Requested 699. Please try again in 4m36.48s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,fde21b1f,Bronchial Asthma,"I'm feeling really tired and weak lately, and I've had this cough that just won't go away. My breathing has become shallow, and my fever has been really high. When I cough, I've been producing a lot of thick, mucoid sputum"
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199928, Requested 835. Please try again in 5m29.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,080975d5,urinary tract infection,"In the last four days, I've experienced low temperatures and blood in my pee. My head hurts so much and my urine smells awful. The desires to urinate seldom come on cue, and I hardly ever have any control over when they do."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199916, Requested 825. Please try again in 5m20.112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,d428a5d2,diabetes,I have a feeling of tremors and muscle twitching. I have decreased sense of smell or taste and I feel fatigued. Sometimes I have a feeling of rapid hearbeat or palipatations
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199903, Requested 836. Please try again in 5m19.248s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,9f9c3fe4,Dimorphic Hemorrhoids,"I've been finding it incredibly difficult recently to use the restroom. I can only go sporadically because it hurts so much. My anus and the surrounding region are also quite painful. My anus feels really aggravated, and my stool has been extremely bloody."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199891, Requested 834. Please try again in 5m13.2s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,ccccc9d4,Dimorphic Hemorrhoids,"I've been finding it challenging to use the restroom. Going has been quite difficult, and it aches when I do. When I go, my anus bleeds and is really uncomfortable. I'm in a lot of discomfort and it hurts extremely bad."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199879, Requested 818. Please try again in 5m1.104s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,183bf439,Psoriasis,"My skin has a silvery film, particularly on my back, arms and scalp. This dusting is composed of tiny scales that easily peel off when scratched."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199866, Requested 832. Please try again in 5m1.536s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,3d6df15c,Malaria,"Strong itchiness, chills, nausea, and a high fever are all part of my current condition. In addition, I have a headache and have been perspiring a lot. I've been suffering from nausea as well as muscle ache."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199854, Requested 817. Please try again in 4m49.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,fce698aa,Hypertension,"Along with a head pain, chest pain, instability, and balance issues, I've also been feeling unwell. I also think I'm having problems focusing."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199842, Requested 804. Please try again in 4m39.072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,8158fc88,Migraine,"I have been feeling excessively hungry, even after eating, and have had a stiff neck."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199829, Requested 820. Please try again in 4m40.368s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,3177f334,urinary tract infection,"I have to go to the bathroom a lot, but generally only a few drops of urine come out. I have severe stomach pains and an overwhelming want to urinate."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199817, Requested 834. Please try again in 4m41.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,b68a951b,Common Cold,My eyes have been really red and my sinuses feel congested. I just don't have any energy and my throat has been really itchy. I've also noticed my lymph nodes are swollen and I've been coughing up a lot of phlegm.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199804, Requested 823. Please try again in 4m30.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,19062599,Cervical spondylosis,"I've been suffering from severe back pain, a persistent cough, and numbness in my arms and legs. I've been experiencing issues with vertigo and balance issues, and my neck hurts."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199792, Requested 812. Please try again in 4m20.928s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,7829c06e,diabetes,"My mouth and throat are dry. Additionally, I've been growing increasingly hungry. But on occasion, I do feel rather worn out."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199780, Requested 689. Please try again in 3m22.607999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,0cd7cf49,Common Cold,"I'm coughing nonstop and am really chilly. My mucus production is excessive, and my sinuses are fully clogged. I can't smell anything, and my chest hurts. My muscles are quite painful as well."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199767, Requested 828. Please try again in 4m17.04s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,5ed9575b,Dimorphic Hemorrhoids,"I've been terribly constipated lately, and when I do go to the bathroom, it hurts a lot. Aside from that, my anus has been really itchy, and I've observed some blood in my stool."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199755, Requested 813. Please try again in 4m5.376s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,1f18d769,Dengue,The high fever I have been experiencing is accompanied by sweating and weakness. My muscles pain as a result I cannot work all day. 
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199743, Requested 803. Please try again in 3m55.872s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,47917223,Migraine,"In addition to having a stiff neck and eye issues, I have been always hungry."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199728, Requested 825. Please try again in 3m58.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,c67e5237,urinary tract infection,"I've been experiencing really low moods and very bad urine odour. I can't seem to keep my urine back, and the area near my kidneys hurts a lot. I frequently experience these irrational cravings."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199716, Requested 836. Please try again in 3m58.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,33977ca1,Pneumonia,"I've recently had chills, exhaustion, a cough, a high temperature, and breathing issues. I've been perspiring a lot and generally feeling weak and ill. I've had some quite thick and black phlegm. My heart has been racing quite quickly."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199704, Requested 835. Please try again in 3m52.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,1bf77947,Common Cold,"I've had a terrible cough and cold for days. My face is tired and my sinuses are blocked. In addition, my chest hurts from the phlegm I've been coughing up. I can't smell, and my muscles are in terrible pain."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199691, Requested 677. Please try again in 2m38.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,abd6f044,Chicken pox,"I'm feeling really sick and lost my appetite. I've seen little red patches on my arms, neck and face that itch when I touch them."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199679, Requested 823. Please try again in 3m36.864s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,9b37b0bb,Psoriasis,"There is strange pain in my joints. Also, I have noticed strange peeling of skin in different parts of my body. I am afraid there is something wrong going on with my body."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199666, Requested 827. Please try again in 3m32.976s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,44ad9490,gastroesophageal reflux disease,"I have a loss of appetite and difficulty swallowing. I often have this persistent feeling of fullness, even after eating small meals. I usually throw up and get heartburn and a tingling sensation in my throat"
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199653, Requested 818. Please try again in 3m23.471999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,282b946f,Cervical spondylosis,"I have been suffering from back pain, a productive cough, and weakness in my limbs. My neck is sore and I have had issues with dizziness and balance."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199641, Requested 836. Please try again in 3m26.064s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,1c730f61,Bronchial Asthma,"I've been having breathing issues, a persistent cough, and exhaustion. I've been coughing up a lot of thick, mucoid sputum and have a very high fever. I'm just feeling so drained and tired from having to deal with all of this."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199629, Requested 825. Please try again in 3m16.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,60301a31,Varicose Veins,"Recently, the pain in my calves has been constant and becomes worse when I stand or walk for long periods of time. My legs have started to swell and also some blood vessels are quite noticeable."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199616, Requested 826. Please try again in 3m10.944s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,41465212,Dengue,"I've been suffering from significant joint pain, which makes it difficult for me to walk and carry out my everyday tasks. I've also lost my appetite, which makes me feel weak and feel like vomitting."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199603, Requested 821. Please try again in 3m3.168s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,1447f998,peptic ulcer disease,"A sour, acidic taste is all over my mouth. Belching and burping are common in me. I have pressure or fullness in my upper abdomen for a few hours."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199590, Requested 827. Please try again in 3m0.144s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,3aad0d1d,Dengue,I have developed red spots on my arms and legs that are itchy and inflamed. I have been feeling nauseaus and have a constant urge to vomit. This is accomapanied by mild fever.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199578, Requested 828. Please try again in 2m55.392s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,36c4b4b5,Cervical spondylosis,"Along with a persistent cough, weakness in my arms and legs, and severe back pain, I've been having a lot of trouble. I've experienced issues with vertigo and balance loss, and my neck is hurting."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199564, Requested 848. Please try again in 2m57.984s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,99626681,Common Cold,"My eyes are always red and itchy, and my nose feels all stuffy and congested. I just feel kind of sick and tired all the time, and I keep coughing up all this gunk. My throat feels sore and scratchy, and I've noticed that the bumps on my neck are bigger than usual"
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199551, Requested 831. Please try again in 2m45.024s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,04e95bd4,Jaundice,"Extreme itchiness, nausea, and exhaustion have been bothering me. In addition, I developed a fever and lost weight. My pee is black, and I've developed a yellow rash. The ache in my stomach is also present."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199539, Requested 817. Please try again in 2m33.792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,99d5d0df,drug reaction,"I suffer migraines and headaches, and I've been having trouble falling asleep. My whole body has been trembling and shivering. At times, I have dizziness."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199526, Requested 822. Please try again in 2m30.336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,5bbf3515,Migraine,"Along with headaches, indigestion, acid reflux, excessive appetite, a sore neck, sadness, impatience, and visual disturbance, I have also been feeling blurred and distorted vision."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199514, Requested 812. Please try again in 2m20.832s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,b43d0dcf,Acne,"Recently, I've been experiencing a lot of acne breakouts with pimples that contain pus. I've also been struggling with blackheads."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199501, Requested 829. Please try again in 2m22.56s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,1544332b,Jaundice,"I have been experiencing intense itching, vomiting, and fatigue. I have also lost weight and have a high fever. My skin has turned yellow and my urine is dark. I have been having abdominal pain as well."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199489, Requested 823. Please try again in 2m14.783999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,16eb5ede,Malaria,"I've had a high temperature, vomiting, chills, and intense itching. I also have a headache and am perspiring a lot. I'm queasy, and my muscles hurt a lot."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199476, Requested 826. Please try again in 2m10.464s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,95a35ec0,Dimorphic Hemorrhoids,I've been having a lot of trouble going to the bathroom lately. It's been really painful and I've been experiencing pain in my anus. My stool has also been bloody and my anus has been really irritated.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199464, Requested 837. Please try again in 2m10.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,2cee0184,Common Cold,"I lack energy and feel like my neck is bloated. My eyes are red, and my throat feels scratchy. I have severe congestion in my nostrils, and my face is under pressure. I can't smell anything, and my chest hurts."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199452, Requested 824. Please try again in 1m59.232s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,0a6a8790,Malaria,"I have a high temperature, vomiting, chills, and severe itching. In addition, I've been perspiring a lot and have a headache. I've also been bothered by nausea and muscle ache."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199439, Requested 824. Please try again in 1m53.616s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,b772859b,urinary tract infection,I been having very low temperatues and a very foul smelling pee. The area near my kidneys hurt a lot and I cant seem to hold my pee. I often get these uncontrollable urges
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199427, Requested 835. Please try again in 1m53.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,b9e95fbe,Common Cold,"My eyes are usually red and inflamed, and I have the impression that something is clogging my sinuses. I've been coughing up a lot of gunk, and my chest hurts. I can't smell anything, and my muscles are aching."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199414, Requested 832. Please try again in 1m46.271999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,275a8f75,Pneumonia,"I have a really high fever, and I have problems breathing. My heart is racing quite quickly, I'm perspiring a lot, and I feel chilly and exhausted. I'm also about to cough out some brownish phlegm."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199402, Requested 814. Please try again in 1m33.312s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,e08f9b0f,Varicose Veins,The veins on my calves are very prominent and are causing me a lot of discomforts. They are swollen and protrude from my skin.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199390, Requested 819. Please try again in 1m30.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,cad8a114,peptic ulcer disease,"My appetite and chronic hunger are both ferocious. My stomach may occasionally ache and spasm. I have gas and bloating after eating, which is really painful."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199377, Requested 827. Please try again in 1m28.128s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,a5d45ee7,Jaundice,I have been having severe itching and vomiting. I am also very tired and have lost weight. My fever is high and my skin has turned yellow. My urine is dark and I have been experiencing abdominal pain
+Arthritis,high,0.9,"[{""diagnosis"": ""Arthritis"", ""confidence"": ""high""}, {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""}, {""diagnosis"": ""Migraine"", ""confidence"": ""low""}]",,"{
+  ""diagnosis"": ""Arthritis"",
+  ""confidence"": ""high"",
+  ""top_3"": [
+    {""diagnosis"": ""Arthritis"", ""confidence"": ""high""},
+    {""diagnosis"": ""Cervical spondylosis"", ""confidence"": ""medium""},
+    {""diagnosis"": ""Migraine"", ""confidence"": ""low""}
+  ]
+}",8cf7bff6,Arthritis,I've been feeling really weak in my muscles and my neck has been really stiff. My joints have been swelling up and it's hard for me to move around without feeling stiff. Walking has been really painful too.
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199983, Requested 818. Please try again in 5m46.032s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,26133009,Cervical spondylosis,"I have been experiencing severe back pain, a persistent cough, and weakness in my limbs. My neck also hurts and I have been feeling dizzy and off balance."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199964, Requested 841. Please try again in 5m47.76s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,8666c7a4,Bronchial Asthma,"With my persistent cough, respiratory issues, and exhaustion, I've been struggling. I have a high fever and have been producing a lot of thick, mucoid sputum while coughing. I currently feel rather sick as a result of how draining and tiresome everything has been."
+,,,,"Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx9er64recgb7xz3d93zs9jn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199945, Requested 817. Please try again in 5m29.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}",,2acacf4f,Typhoid,"The abdominal pain has been coming and going, and it's been really unpleasant. It's been accompanied by constipation and vomiting. I feel really concerned about my health."
