@@ -11,6 +11,7 @@ venv/
 # Data (keep raw data out of git unless small; track processed results selectively)
 data/*
 !data/.gitkeep
+!data/symptom2disease.csv
 !data/symptom2disease_clean.csv
 
 # OS
