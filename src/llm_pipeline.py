@@ -42,7 +42,7 @@ RESULTS_DIR = Path("results")
 RESULTS_DIR.mkdir(exist_ok=True)
 OUT_PATH = RESULTS_DIR / "llm_predictions.csv"
 
-MODEL_NAME = "openai/gpt-oss-120b"
+MODEL_NAME = "llama-3.1-8b-instant"
 
 # Verbal confidence -> numeric anchor. Coarse by design (see module docstring).
 CONFIDENCE_MAP = {"low": 0.33, "medium": 0.66, "high": 0.90}
@@ -55,6 +55,18 @@ DISEASE_LABELS = [
     "allergy", "diabetes", "drug reaction", "gastroesophageal reflux disease",
     "peptic ulcer disease", "urinary tract infection",
 ]
+
+# Case-insensitive lookup: models (especially smaller ones) often auto-capitalize
+# the start of JSON string values regardless of instructions. The dataset's own
+# labels are inconsistently cased (e.g. "Migraine" vs. "urinary tract infection"),
+# so an exact-match check on diagnosis was rejecting otherwise-correct answers.
+_LABEL_LOOKUP = {label.lower(): label for label in DISEASE_LABELS}
+
+
+def normalize_diagnosis(raw_diagnosis: str) -> str:
+    """Map a model's diagnosis string to the canonical dataset label,
+    tolerating case differences. Returns None if no match found at all."""
+    return _LABEL_LOOKUP.get(raw_diagnosis.strip().lower())
 
 SYSTEM_PROMPT = f"""You are a diagnostic assistant. Given a patient's free-text
 description of their symptoms, identify the most likely diagnosis and your
@@ -108,28 +120,40 @@ def parse_response(raw_text: str) -> dict:
 
     parsed = json.loads(text)  # raises if truly malformed -- caught by caller
 
-    diagnosis = parsed["diagnosis"]
+    diagnosis = normalize_diagnosis(parsed["diagnosis"])
     confidence_label = parsed["confidence"].strip().lower()
-    if diagnosis not in DISEASE_LABELS:
-        raise ValueError(f"Model returned an out-of-list diagnosis: {diagnosis!r}")
+    if diagnosis is None:
+        raise ValueError(f"Model returned an out-of-list diagnosis: {parsed['diagnosis']!r}")
     if confidence_label not in CONFIDENCE_MAP:
         raise ValueError(f"Model returned an unrecognized confidence: {confidence_label!r}")
 
     top_3 = parsed.get("top_3", [])
+    # Normalize top_3 diagnoses too, dropping any that don't match a known label
+    # rather than failing the whole case over a secondary field.
+    normalized_top_3 = []
+    for entry in top_3:
+        norm_label = normalize_diagnosis(entry.get("diagnosis", ""))
+        if norm_label is not None:
+            normalized_top_3.append({
+                "diagnosis": norm_label,
+                "confidence": entry.get("confidence", "").strip().lower(),
+            })
 
     return {
         "diagnosis": diagnosis,
         "confidence_label": confidence_label,
         "confidence_numeric": CONFIDENCE_MAP[confidence_label],
-        "top_3_raw": json.dumps(top_3),
+        "top_3_raw": json.dumps(normalized_top_3),
         "parse_error": None,
     }
 
 
 def diagnose_case(client, symptom_text: str, max_retries: int = 2) -> dict:
     """Send one case to the LLM and return a parsed result dict.
-    Retries once on a parse failure (asking the model to strictly follow format)
-    before giving up and recording the error."""
+    Retries on failure before giving up and recording the error. Rate-limit
+    errors (429) get a longer backoff since an instant retry will just fail
+    again; other errors (empty response, malformed JSON) get a short backoff
+    since those are usually transient."""
     last_error = None
     for attempt in range(max_retries + 1):
         try:
@@ -140,15 +164,20 @@ def diagnose_case(client, symptom_text: str, max_retries: int = 2) -> dict:
                     {"role": "user", "content": f"Patient symptoms: {symptom_text}"},
                 ],
                 temperature=0.2,  # low temperature: favors consistent, less erratic outputs
-                max_tokens=400,
+                max_tokens=600,   # generous headroom so top_3 JSON doesn't get truncated
             )
             raw_text = response.choices[0].message.content
+            if not raw_text or not raw_text.strip():
+                raise ValueError("Empty response from model")
             result = parse_response(raw_text)
             result["raw_response"] = raw_text
             return result
         except Exception as e:
             last_error = str(e)
-            time.sleep(1)  # brief backoff before retry
+            if "rate_limit" in last_error or "429" in last_error:
+                time.sleep(15)  # rate limits need real time to clear, not a quick retry
+            else:
+                time.sleep(1)
 
     # All attempts failed -- record the failure rather than silently dropping the row
     return {
@@ -177,19 +206,23 @@ def main():
     if args.limit:
         df = df.head(args.limit)
 
-    # Resume support: skip cases already present in an existing output file
-    already_done = set()
+    # Resume support: skip cases that already SUCCEEDED. Failed cases (parse_error
+    # set) are retried -- their old failed row is dropped and replaced below.
+    already_succeeded = set()
+    prev = None
     if OUT_PATH.exists():
         prev = pd.read_csv(OUT_PATH)
-        already_done = set(prev["case_id"])
-        print(f"Found existing results for {len(already_done)} cases -- will skip those.")
+        already_succeeded = set(prev.loc[prev["parse_error"].isna(), "case_id"])
+        n_prev_failed = prev["parse_error"].notna().sum()
+        print(f"Found {len(already_succeeded)} previously successful cases (will skip) "
+              f"and {n_prev_failed} previously failed cases (will retry).")
 
     client = get_client()
     rows = []
     n_errors = 0
 
     for i, row in df.iterrows():
-        if row["case_id"] in already_done:
+        if row["case_id"] in already_succeeded:
             continue
 
         result = diagnose_case(client, row["text"])
@@ -200,16 +233,22 @@ def main():
 
         if result["parse_error"]:
             n_errors += 1
-            print(f"[{i+1}/{len(df)}] case {row['case_id']}: FAILED -- {result['parse_error']}")
+            print(f"[{i+1}/{len(df)}] case {row['case_id']}: FAILED -- {result['parse_error'][:120]}")
         else:
             correct = "✓" if result["diagnosis"] == row["label"] else "✗"
             print(f"[{i+1}/{len(df)}] case {row['case_id']}: {result['diagnosis']} "
                   f"({result['confidence_label']}) {correct}")
 
-        # Write incrementally so a crash mid-run doesn't lose progress
-        out_df = pd.DataFrame(rows)
-        if OUT_PATH.exists() and already_done:
-            out_df = pd.concat([prev, out_df], ignore_index=True)
+        # Write incrementally so a crash mid-run doesn't lose progress.
+        # Combine: previously succeeded rows + all new attempts this run
+        # (new attempts may include retries of previously-failed case_ids,
+        # so we don't carry forward any old failed rows here).
+        new_df = pd.DataFrame(rows)
+        if prev is not None:
+            prev_success_only = prev[prev["case_id"].isin(already_succeeded)]
+            out_df = pd.concat([prev_success_only, new_df], ignore_index=True)
+        else:
+            out_df = new_df
         out_df.to_csv(OUT_PATH, index=False)
 
         time.sleep(args.sleep)
